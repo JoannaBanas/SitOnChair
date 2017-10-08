@@ -7,7 +7,7 @@
 
 .container{
     max-width: 1200px;
-    width: 100%;
+    min-width: 1000px;
     margin: 0 auto;
 
 }
@@ -192,29 +192,31 @@ button{
 .pictures{
   background-color: white;
   width: 100%;
+  min-width: 1000px;
   height: 300px;
-  margin: 40px 0 50px 0;
+  min-height: 450px;
+  margin: 90px 0 50px 0;
+  display: inline-block;
+
 }
 
 main.section2{
-  display: inline-block;
   height: 300px;
   font-size: 14px;
+
 }
 
 div.chairClair{
    background: url("../images/box1_img.jpg") no-repeat center top/cover;
-   height: 250px;
+   height: 300px;
    width: 30%;
-   min-width: auto;
    position: relative;
 }
 
 div.chairMargarita{
     background: url("../images/box2_img.jpg") no-repeat center top/cover;
-    width: 32%;
-    min-width: auto;
-    height: 250px;
+    width: 30%;
+    height: 300px;
     margin: 0 35px;
     position: relative;
 }
@@ -225,10 +227,10 @@ div.chairMargarita{
 }
 
 div.findAllInputs{
-    width: 32%;
+    width: 30%;
     min-width: auto;
-    min-height: auto;
-    height: 300px;
+    min-height: 200px;
+    height: 350px;
     border: 1px solid #D6D6D6;
 }
 
@@ -267,7 +269,8 @@ div.findAllInputs{
 /*SECTION3 CENNIK*/
 
 article.list{
-  background: #EDEDED
+  background: #EDEDED;
+  min-width: 1000px;
 }
 
 .plan{
@@ -298,7 +301,7 @@ article.list{
 .circle{
   height: 65px;
   width: 65px;
-  background: #b3b3b3;;
+  background: #b3b3b3;
   border-radius: 50%;
   border: 15px solid white;
   box-shadow: 0 0 0 3px #D6D6D6;
@@ -428,7 +431,7 @@ div.option h2.whiteLetters {
 /*CONTACT SECTION*/
 .contact{
   width: 100%;
-  height: 700px;
+  height: 580px;
   max-height: auto;
 }
 
@@ -522,4 +525,29 @@ input[type=checkbox]:checked + label {
     margin-left: 10px;
     color: #969696;
     padding-left: 70px;
+}
+
+.copyright{
+  width: 65%;
+  margin-left: 35px;
+  color: #b3b3b3;
+  font-size: 20px;
+}
+
+.links li{
+  list-style: none;
+  display: inline;
+  float: right;
+  padding-left: 5px;
+}
+
+.grayLogo{
+  font-size: 22px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  color: #b3b3b3;
+}
+
+.grayLogo span{
+  font-weight: bolder;
 }
