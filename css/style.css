@@ -197,6 +197,7 @@ button{
 }
 
 main.section2{
+  display: inline-block;
   height: 300px;
   font-size: 14px;
 }
@@ -208,8 +209,6 @@ div.chairClair{
    min-width: auto;
    position: relative;
 }
-
-
 
 div.chairMargarita{
     background: url("../images/box2_img.jpg") no-repeat center top/cover;
@@ -228,9 +227,9 @@ div.chairMargarita{
 div.findAllInputs{
     width: 32%;
     min-width: auto;
+    min-height: auto;
     height: 300px;
     border: 1px solid #D6D6D6;
-    float: right;
 }
 
 .findAllInputs h2{
@@ -425,6 +424,8 @@ div.option h2.whiteLetters {
   background-color: white;
 }
 
+
+/*CONTACT SECTION*/
 .contact{
   width: 100%;
   height: 700px;
@@ -433,7 +434,6 @@ div.option h2.whiteLetters {
 
 .submition{
   width: 40%;
-  float: right;
 }
 
 .redchair{
@@ -442,13 +442,13 @@ div.option h2.whiteLetters {
     background: url("../images/red_chair.png");
     background-position: center;
     background-repeat: no-repeat;
+    margin-right: 50px;
 }
 
 .contactForm{
   width:650px;
   min-width: auto;
   margin-right: 60px;
-
 }
 
 form{
@@ -479,4 +479,47 @@ form textarea{
   font-size: 23px;
   border: none;
   box-shadow: 0 0 0 1px #33ccad;
+}
+
+button.button3{
+  width: 380px;
+  height: 65px;
+  font-size: 30px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.checkbox{
+  border: 1px solid #a4e1d1;
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+  }
+
+  .checkbox input {
+  display: block;
+  opacity: 0;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  margin-left: 10px;
+}
+
+input[type=checkbox]:checked + label {
+  background: url("../images/form_ok.jpg")no-repeat;
+  position: relative;
+  bottom: -8px;
+  right: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.checkbox label{
+    display: inline-block;
+    font-size: 20px;
+    min-width: 400px;
+    margin-left: 10px;
+    color: #969696;
+    padding-left: 70px;
 }
