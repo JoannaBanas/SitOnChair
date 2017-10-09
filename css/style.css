@@ -190,12 +190,12 @@ button{
 
 /*SEKTION 2 PICTURES*/
 .pictures{
-  background-color: white;
-  width: 100%;
-  min-width: 1000px;
-  height: 350px;
-margin: 90px 0 50px 0;
-  display: inline-block;
+    background-color: white;
+    width: 100%;
+    min-width: 1000px;
+    height: 350px;
+    margin: 90px 0 50px 0;
+    display: inline-block;
 }
 
 main.section2{
@@ -247,21 +247,21 @@ div.findAllInputs{
 }
 
 .images{
-  margin-top: 180px;
-  padding-left: 15px
+    margin-top: 180px;
+    padding-left: 15px
 }
 
 .after:after {
-  width: 200px;
-  height: 8px;
-  content: "";
-  display: block;
-  background: #33ccad;
+    width: 200px;
+    height: 8px;
+    content: "";
+    display: block;
+    background: #33ccad;
 }
 
 .transparent{
-  background-color: rgba(224, 224, 209, 0.5);
-  height: 60px;
+    background-color: rgba(224, 224, 209, 0.5);
+    height: 60px;
 }
 
 /*SECTION3 CENNIK*/
@@ -283,17 +283,18 @@ article.list{
 }
 
 .option{
- height:500px;
- width: 30%;
- color:  #33ccad;
- font-weight: 400;
- background-color: #f7f7f7;
- text-align: center;
- border: 3px solid #D6D6D6;
- padding: 40px 0 30px 0;
- position: relative;
- margin: 100px 20px;
- display: inline-block;
+   height:500px;
+   width: 30%;
+   min-width: 360px;
+   color:  #33ccad;
+   font-weight: 400;
+   background-color: #f7f7f7;
+   text-align: center;
+   border: 3px solid #D6D6D6;
+   padding: 40px 0 30px 0;
+   position: relative;
+   margin: 100px 20px;
+   display: inline-block;
 }
 
 .circle{
@@ -438,12 +439,12 @@ div.option h2.whiteLetters {
 }
 
 .redchair{
-    min-width: 250px;
-    min-height: 250px;
-    background: url("../images/red_chair.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 50px;
+  min-width: 250px;
+  min-height: 250px;
+  background: url("../images/red_chair.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
 
 .contactForm{
@@ -473,7 +474,7 @@ form textarea{
 }
 
 .boxSeparator {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .inputs{
@@ -496,12 +497,11 @@ button.button3{
   width: 60px;
   height: 60px;
   margin-left: 50px;
-  }
+}
 
   .checkbox input {
   display: block;
   opacity: 0;
-  height: 50px;
   position: absolute;
   width: 50px;
   margin-left: 10px;
@@ -512,8 +512,8 @@ input[type=checkbox]:checked + label {
   position: relative;
   bottom: -8px;
   right: 3px;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 .checkbox label{
@@ -537,8 +537,6 @@ footer{
   color: #b3b3b3;
   font-size: 20px;
 }
-
-
 
 .links li{
   list-style: none;
